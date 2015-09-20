@@ -1,0 +1,30 @@
+[2015-9-19 11:09:04 PM] [INFO] [SERVER_PROCESS] Started Main Server
+[2015-9-19 11:09:04 PM] [INFO] [LISTEN_HEART_BEATS] Thread Started to listen from underlying Email Services
+[2015-9-19 11:09:04 PM] [INFO] [MONITOR_HEART_BEATS] Thread Started to monitor heart beats received from underlying Email Services
+[2015-9-19 11:09:04 PM] [INFO] [LOAD_BALANCER] Thread Started to load balance the email requests and send email
+[2015-9-19 11:09:16 PM] [INFO] SENDGRID Mail Service is now being monitored
+[2015-9-19 11:10:36 PM] [INFO] MAILGUN Mail Service is now being monitored
+[2015-9-19 11:11:00 PM] [INFO] [MAILGUN SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:11:00 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with MAILGUN
+[2015-9-19 11:11:03 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:11:03 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
+[2015-9-19 11:11:06 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:11:06 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
+[2015-9-19 11:11:10 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:11:10 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
+[2015-9-19 11:12:37 PM] [INFO] [MAILGUN SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:12:37 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with MAILGUN
+[2015-9-19 11:12:41 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:12:41 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
+[2015-9-19 11:12:45 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:12:45 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
+[2015-9-19 11:12:49 PM] [INFO] [MAILGUN SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:12:49 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with MAILGUN
+[2015-9-19 11:12:52 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:12:52 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
+[2015-9-19 11:12:57 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:12:57 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
+[2015-9-19 11:13:01 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:13:01 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
+[2015-9-19 11:13:05 PM] [INFO] [SENDGRID SUCCESS] Sent Mail Successfully to ashwin.tumma23@gmail.com
+[2015-9-19 11:13:05 PM] [INFO] Sent Mail to ashwin.tumma23@gmail.com with SENDGRID
