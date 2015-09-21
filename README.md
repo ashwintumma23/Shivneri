@@ -17,6 +17,8 @@ Desigining of a reliable email service which accepts email, and distributes the 
 This section elaborates upon the design considerations and the features of the tool. The following architecture diagram is used for explication purposes.
 ![Shivneri Architecture](https://github.com/ashwintumma23/Shivneri/blob/master/images/ShivneriArchitecture.jpg "Shivneri Architecture")
 
+To reiterate the disclaimer, the logos in the above diagram are used only for representational purposes, the copyrights and trademarks vest with the respective owners. `Email Content` forms the actual email content which needs to be sent to the end user/ customer.
+
 ### Demonstration
 Being a purely backend engineering tool, it is not that helpful to have the tool deployed on Amazon EC2, or any other hosting site. That said, the tool was tried and tested on EC2 instance. Here's a video recording that I made for a live demonstration of the tool.
 
