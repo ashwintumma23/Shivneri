@@ -17,7 +17,20 @@ Desigining of a reliable email service which accepts email, and distributes the 
 This section elaborates upon the design considerations and the features of the tool. The following architecture diagram is used for explication purposes.
 ![Shivneri Architecture](https://github.com/ashwintumma23/Shivneri/blob/master/images/ShivneriArchitecture.jpg "Shivneri Architecture")
 
-To reiterate the disclaimer, the logos in the above diagram are used only for representational purposes, the copyrights and trademarks vest with the respective owners. `Email Content` forms the actual email content which needs to be sent to the end user/ customer.
+To reiterate the disclaimer, the logos in the above diagram are used only for representational purposes, the copyrights and trademarks vest with the respective owners. `Email Content` forms the actual email content which needs to be sent to the end user/ customer. The `Main Server` process is the heart of the entire system. It acts as load balancer, and request dispatcher as well. When the process starts, it spawns threads for: 
+* Listening for Email requests from higher level
+* Listening for heart beats from underlying email services
+* Monitoring the heart beats of the underlying email services
+
+The `Underlying email services`, send heart beats to the Main Server. Any service can come up, and start sending the heart beat. If the heart beat is not registered with the Main Server, it gets its registered and starts monitoring that email service. N number of services can be added in this way. Each Email content request is received by the Main Server, and the request is then passed on to any of the `Active` underlying email service. By Active, we mean that, that the service is operational, and heart beats are still active. The underlying service in turn takes care of sending the email using its own API. Once again, the code is designed in a `modular` fashion, such that any new service can be added very easily simply by extending the cases, and adding its class along with required API details of that particular service. In the diagram above, we see that how Amazon's SES can be added on the fly, and the Main server in turn starts monitoring the service. 
+
+Whenever any underlying email service goes down, the Main server comes to know that the service is not operational, so it: 
+* Removes that service from the list of `Actively` monitored services, and
+* Fails over all the email traffic to the other active email services.
+Also, in case the underlying service, again comes up and sends heart beats, the Main server again adds it to the list of active services, and starts monitoring it once again. The video demonstration shows this case in depth. 
+
+### Tests
+This section highlights of how the tests were done for validation of load balancing, request dispatching and failovers. The Server process is initiated, along with the Mailgun and Sendgrid processes. Some email traffic is allowed to follow through the system, and then a process, say, Mailgun is killed; which means that the Mailgun service has gone down. Now, the Main Server sees that it has not received heart beats from Mailgun, so it concludes that the service has gone down, and removes it from the list of active services. All the traffic is automatically redirected to Sendgrid service. Again, when the Mailgun service comes up, the traffic is distributed between the two. The video demonstration shows this case in depth. 
 
 ### Demonstration
 Being a purely backend engineering tool, it is not that helpful to have the tool deployed on Amazon EC2, or any other hosting site. That said, the tool was tried and tested on EC2 instance. Here's a video recording that I made for a live demonstration of the tool.
