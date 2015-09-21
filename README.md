@@ -14,7 +14,8 @@ This project sources its inspiration from Uber's Coding [Challenge](https://gith
 Desigining of a reliable email service which accepts email, and distributes the actual 'sending' activity of that email to underlying email services. If one underlying service goes down, all the traffic is failed over to the other service, and all of this happens without the knowledge of the higher level services. 
 
 ### Design Considerations and Features
-Desigining of a reliable email service which accepts email, and distributes the actual 'sending' activity of that email to underlying email services. If one underlying service goes down, all the traffic is failed over to the other service, and all of this happens without the knowledge of the higher level services. 
+This section elaborates upon the design considerations and the features of the tool. The following architecture diagram is used for explication purposes.
+![Shivneri Architecture](https://github.com/ashwintumma23/Shivneri/blob/master/images/ShivneriArchitecture.jpg "Shivneri Architecture")
 
 ### Demonstration
 Being a purely backend engineering tool, it is not that helpful to have the tool deployed on Amazon EC2, or any other hosting site. That said, the tool was tried and tested on EC2 instance. Here's a video recording that I made for a live demonstration of the tool.
