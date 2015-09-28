@@ -2,6 +2,8 @@
 
 Shivneri, is an email service which is resistant to failures of underlying email services. Business now rely on external email services like, [Mailgun](https://mailgun.com), [Sendgrid](https://sendgrid.com/), etc. for sending emails to customers, instead of home grown SMTP services. Shivneri, contains a load balancer, and request dispatcher which routes email traffic to such underlying email services, and abstracts all the underlying email service details from the top level. It also takes care of failures of underlying services, by meticulously balancing the email loads.
 
+[![Stories in progress](https://badge.waffle.io/ashwintumma23/Shivneri.svg?label=In%Progress&title=In Progress)](http://waffle.io/ashwintumma23/Shivneri)
+
 If you want to jump ahead, here are a few direct links to: [Design Considerations and Features](https://github.com/ashwintumma23/Shivneri/#design-considerations-and-features), and [Live Demo](https://github.com/ashwintumma23/Shivneri/#demonstration)
 
 ### Why is this tool christened Shivneri?
