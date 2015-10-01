@@ -60,4 +60,4 @@ Computer Science Graduate Student
 
 Stony Brook University, New York
 
-[Website](https://sites.google.com/site/ashwintumma23/) | [Resume](https://sites.google.com/site/ashwintumma23/resume)
+[Website](https://sites.google.com/site/ashwintumma23/) | [Resume](https://sites.google.com/site/ashwintumma23/resume) | [LinkedIn](https://www.linkedin.com/in/ashwintumma23)
