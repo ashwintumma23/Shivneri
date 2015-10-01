@@ -50,7 +50,8 @@ Direct Link: https://youtu.be/GpbvDu2-KhA
 ### What additional features can be implemented? 
 Given more time and efforts the following features could have been implemented: 
 * **Modularized Scheduler**: Currently the scheduler is random. A random value is picked up and the request is dispatched to that random valued underlying email service. Round robin scheduler can be implemented using a Circular Queue. O(1) scheduler from Linux Kernel 2.6 can be implemented using HashMaps and simple queues. And all these can be modularized. The implementor of this system is free to choose any scheduler
-* Graphical User Interface for specifying email input parameters
+* **Graphical User Interface** for specifying email input parameters
+* **More underlying email services**: Currently only two underlying email services, Mailgun and Sendgrid are supported. Additional Email services like Amazon SES can be added.
 
 
 ### Author
