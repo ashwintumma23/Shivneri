@@ -57,5 +57,7 @@ Given more time and efforts the following features could have been implemented:
 Ashwin Tumma
 
 Computer Science Graduate Student
+
 Stony Brook University, New York
-[Website](https://sites.google.com/site/ashwintumma23/) | [Resume]()
+
+[Website](https://sites.google.com/site/ashwintumma23/) | [Resume](https://sites.google.com/site/ashwintumma23/resume)
