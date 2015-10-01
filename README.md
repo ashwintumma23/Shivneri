@@ -7,7 +7,7 @@ Shivneri, is an email service which is resistant to failures of underlying email
 If you want to jump ahead, here are a few direct links to: [Design Considerations and Features](https://github.com/ashwintumma23/Shivneri/#design-considerations-and-features), and [Live Demo](https://github.com/ashwintumma23/Shivneri/#demonstration)
 
 ### On what does this solution focus?
-This solution primarily focuses on backend engineering of the email service, and shown in the Architecture diagram below.
+This solution primarily focuses on **backend engineering** of the email service, and shown in the Architecture diagram below.
 
 ### Why is this tool christened Shivneri?
 [Shiveri](https://en.wikipedia.org/wiki/Shivneri) is the name of an Indian land fort in the state of Maharashtra, my home state. It is the birth place of an Indian King and statesman named, Chhatrapati Shivaji Maharaj, who led the genesis of Maratha empire. The reason I choose the tool to name Shivneri is that, it signifies birth, and I consider this tool as the birth of my distributed systems work. Also, I learnt the art of naming the tool as something meaningful from this repository: [Raigad](https://github.com/Netflix/Raigad), which is Netflix's OSS.
@@ -51,3 +51,11 @@ Direct Link: https://youtu.be/GpbvDu2-KhA
 Given more time and efforts the following features could have been implemented: 
 * **Modularized Scheduler**: Currently the scheduler is random. A random value is picked up and the request is dispatched to that random valued underlying email service. Round robin scheduler can be implemented using a Circular Queue. O(1) scheduler from Linux Kernel 2.6 can be implemented using HashMaps and simple queues. And all these can be modularized. The implementor of this system is free to choose any scheduler
 * Graphical User Interface for specifying email input parameters
+
+
+### Author
+Ashwin Tumma
+
+Computer Science Graduate Student
+Stony Brook University, New York
+[Website](https://sites.google.com/site/ashwintumma23/) | [Resume]()
