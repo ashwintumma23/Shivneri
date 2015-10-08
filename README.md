@@ -13,7 +13,7 @@ This solution primarily focuses on **backend engineering** of the email service,
 [Shiveri](https://en.wikipedia.org/wiki/Shivneri) is the name of an Indian land fort in the state of Maharashtra, my home state. It is the birth place of an Indian King and statesman named, Chhatrapati Shivaji Maharaj, who led the genesis of Maratha empire. The reason I choose the tool to name Shivneri is that, it signifies birth, and I consider this tool as the birth of my distributed systems work. Also, I learnt the art of naming the tool as something meaningful from this repository: [Raigad](https://github.com/Netflix/Raigad), which is Netflix's OSS.
 
 ### Motivation 
-This project sources its inspiration from Uber's Coding [Challenge](https://github.com/uber/coding-challenge-tools/blob/master/coding_challenge.md). I have always been amazed by the concept of emails. I believe that writing great email is an art, and I vividly remember that I have been making assisduous endeavor to imbibe that art in me since many years. Perhaps this is the reason why, I was so attracted to this problem, and chose to work on my implementation of it.
+I have always been amazed by the concept of emails. I believe that writing great email is an art, and I vividly remember that I have been making assisduous endeavor to imbibe that art in me since many years. Perhaps this is the reason why, I was so attracted to this problem, and chose to work on my implementation of it.
 
 ### Problem Description
 Desigining of a reliable email service which accepts email, and distributes the actual 'sending' activity of that email to underlying email services. If one underlying service goes down, all the traffic is failed over to the other service, and all of this happens without the knowledge of the higher level services. 
@@ -61,4 +61,4 @@ Computer Science Graduate Student
 
 Stony Brook University, New York
 
-[Website](https://sites.google.com/site/ashwintumma23/) | [Resume](https://sites.google.com/site/ashwintumma23/resume) | [LinkedIn](https://www.linkedin.com/in/ashwintumma23)
+[Website](https://sites.google.com/site/ashwintumma23/) |  [LinkedIn](https://www.linkedin.com/in/ashwintumma23)
